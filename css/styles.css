@@ -217,27 +217,34 @@ body {
   display: block;
   width: 264px;
   height: 112px;
-  content: "";
+  content: '';
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 60px 64px;
   background-color: var(--color-cloud);
   margin-bottom: 8px;
-  background-image: url("../images/icons.svg#antenna");
+  /* background-image: url("../images/icons.svg#antenna");../images/antenna.svg */
   
 }
 
-.advantages-item:nth-child(1)::before  {
-  content: "";
-  display: inline-block;
-  /* width: 1em; */
-  /* height: 1em; */
-  stroke-width: 0;
-  stroke: black;
-  fill:   black;
-  background-image: url('../images/icons.svg#antenna');
-  /* background-image: url('../images/antenna.svg'); */
-  /* fill: #404bbf; */
-  border-color: #31D0AA;
+.advantages-item:nth-child(1):before  {
+  background-image: url("../images/antenna.svg");
+  
+}
+
+.advantages-item:nth-child(2):before  {
+  background-image: url("../images/diagram.svg");
+  
+}
+
+.advantages-item:nth-child(3):before  {
+  background-image: url("../images/clock.svg");
+  
+}
+
+.advantages-item:nth-child(4):before  {
+  background-image: url("../images/astronaut.svg");
+  
 }
 
 
